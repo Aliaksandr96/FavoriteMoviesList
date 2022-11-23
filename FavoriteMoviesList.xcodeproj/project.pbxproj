@@ -47,6 +47,7 @@
 		DACAA830292E76AF000EC0FB /* NewFilmPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA81A292E76AF000EC0FB /* NewFilmPresenter.swift */; };
 		DACAA833292E76DF000EC0FB /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA832292E76DF000EC0FB /* FilmModel.swift */; };
 		DACAA836292E76FB000EC0FB /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA835292E76FB000EC0FB /* CoreManager.swift */; };
+		DACAA839292E7734000EC0FB /* EasyAutolayout in Frameworks */ = {isa = PBXBuildFile; productRef = DACAA838292E7734000EC0FB /* EasyAutolayout */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACAA839292E7734000EC0FB /* EasyAutolayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +323,9 @@
 			dependencies = (
 			);
 			name = FavoriteMoviesList;
+			packageProductDependencies = (
+				DACAA838292E7734000EC0FB /* EasyAutolayout */,
+			);
 			productName = FavoriteMoviesList;
 			productReference = DACAA7C6292E7260000EC0FB /* FavoriteMoviesList.app */;
 			productType = "com.apple.product-type.application";
@@ -349,6 +354,9 @@
 				Base,
 			);
 			mainGroup = DACAA7BD292E7260000EC0FB;
+			packageReferences = (
+				DACAA837292E7734000EC0FB /* XCRemoteSwiftPackageReference "EasyAutoLayout" */,
+			);
 			productRefGroup = DACAA7C7292E7260000EC0FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -622,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DACAA837292E7734000EC0FB /* XCRemoteSwiftPackageReference "EasyAutoLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ligr/EasyAutoLayout";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DACAA838292E7734000EC0FB /* EasyAutolayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DACAA837292E7734000EC0FB /* XCRemoteSwiftPackageReference "EasyAutoLayout" */;
+			productName = EasyAutolayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DACAA7D2292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld */ = {
