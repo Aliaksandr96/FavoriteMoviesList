@@ -45,6 +45,8 @@
 		DACAA82E292E76AF000EC0FB /* NewFilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA818292E76AF000EC0FB /* NewFilmViewController.swift */; };
 		DACAA82F292E76AF000EC0FB /* NewFilmRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA819292E76AF000EC0FB /* NewFilmRouter.swift */; };
 		DACAA830292E76AF000EC0FB /* NewFilmPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA81A292E76AF000EC0FB /* NewFilmPresenter.swift */; };
+		DACAA833292E76DF000EC0FB /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA832292E76DF000EC0FB /* FilmModel.swift */; };
+		DACAA836292E76FB000EC0FB /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA835292E76FB000EC0FB /* CoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		DACAA818292E76AF000EC0FB /* NewFilmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFilmViewController.swift; sourceTree = "<group>"; };
 		DACAA819292E76AF000EC0FB /* NewFilmRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFilmRouter.swift; sourceTree = "<group>"; };
 		DACAA81A292E76AF000EC0FB /* NewFilmPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFilmPresenter.swift; sourceTree = "<group>"; };
+		DACAA832292E76DF000EC0FB /* FilmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		DACAA835292E76FB000EC0FB /* CoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +124,9 @@
 		DACAA7C8292E7260000EC0FB /* FavoriteMoviesList */ = {
 			isa = PBXGroup;
 			children = (
+				DACAA831292E76DF000EC0FB /* Models */,
 				DACAA7FB292E76AF000EC0FB /* Views */,
+				DACAA834292E76FB000EC0FB /* CoreDataManager */,
 				DACAA7F6292E7684000EC0FB /* Extensions */,
 				DACAA7E2292E765A000EC0FB /* Fonts */,
 				DACAA7E1292E74E2000EC0FB /* Resources */,
@@ -283,6 +289,22 @@
 			path = ReleaseDateView;
 			sourceTree = "<group>";
 		};
+		DACAA831292E76DF000EC0FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA832292E76DF000EC0FB /* FilmModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DACAA834292E76FB000EC0FB /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA835292E76FB000EC0FB /* CoreManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -373,6 +395,7 @@
 				DACAA829292E76AF000EC0FB /* UrlLinkPresenter.swift in Sources */,
 				DACAA82C292E76AF000EC0FB /* ReleaseDateViewController.swift in Sources */,
 				DACAA821292E76AF000EC0FB /* MovieListCustomCell.swift in Sources */,
+				DACAA833292E76DF000EC0FB /* FilmModel.swift in Sources */,
 				DACAA82F292E76AF000EC0FB /* NewFilmRouter.swift in Sources */,
 				DACAA7D4292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld in Sources */,
 				DACAA828292E76AF000EC0FB /* UrlLinkViewController.swift in Sources */,
@@ -382,6 +405,7 @@
 				DACAA822292E76AF000EC0FB /* RatingPresenter.swift in Sources */,
 				DACAA81F292E76AF000EC0FB /* MainPresenter.swift in Sources */,
 				DACAA7F9292E7684000EC0FB /* UIFont+Extension.swift in Sources */,
+				DACAA836292E76FB000EC0FB /* CoreManager.swift in Sources */,
 				DACAA830292E76AF000EC0FB /* NewFilmPresenter.swift in Sources */,
 				DACAA81E292E76AF000EC0FB /* MainViewController.swift in Sources */,
 				DACAA81C292E76AF000EC0FB /* DetailPresenter.swift in Sources */,
