@@ -6,6 +6,7 @@ Creating a project to save the favourite films.
 
 ```ruby
 UIKit
+CoreData
 Foundation
 WebKit
 ```
