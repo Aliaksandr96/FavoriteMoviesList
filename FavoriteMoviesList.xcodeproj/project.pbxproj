@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DACAA7CA292E7260000EC0FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7C9292E7260000EC0FB /* AppDelegate.swift */; };
 		DACAA7CC292E7260000EC0FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7CB292E7260000EC0FB /* SceneDelegate.swift */; };
-		DACAA7CE292E7260000EC0FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7CD292E7260000EC0FB /* ViewController.swift */; };
 		DACAA7D4292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7D2292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld */; };
 		DACAA7D6292E7261000EC0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7D5292E7261000EC0FB /* Assets.xcassets */; };
 		DACAA7D9292E7261000EC0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7D7292E7261000EC0FB /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		DACAA7C6292E7260000EC0FB /* FavoriteMoviesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteMoviesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACAA7C9292E7260000EC0FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACAA7CB292E7260000EC0FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DACAA7CD292E7260000EC0FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DACAA7D3292E7260000EC0FB /* FavoriteMoviesList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoriteMoviesList.xcdatamodel; sourceTree = "<group>"; };
 		DACAA7D5292E7261000EC0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACAA7D8292E7261000EC0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +54,30 @@
 		DACAA7C8292E7260000EC0FB /* FavoriteMoviesList */ = {
 			isa = PBXGroup;
 			children = (
-				DACAA7C9292E7260000EC0FB /* AppDelegate.swift */,
-				DACAA7CB292E7260000EC0FB /* SceneDelegate.swift */,
-				DACAA7CD292E7260000EC0FB /* ViewController.swift */,
-				DACAA7D5292E7261000EC0FB /* Assets.xcassets */,
-				DACAA7D7292E7261000EC0FB /* LaunchScreen.storyboard */,
-				DACAA7DA292E7261000EC0FB /* Info.plist */,
-				DACAA7D2292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld */,
+				DACAA7E1292E74E2000EC0FB /* Resources */,
+				DACAA7E0292E74CD000EC0FB /* Application */,
 			);
 			path = FavoriteMoviesList;
+			sourceTree = "<group>";
+		};
+		DACAA7E0292E74CD000EC0FB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7CB292E7260000EC0FB /* SceneDelegate.swift */,
+				DACAA7C9292E7260000EC0FB /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DACAA7E1292E74E2000EC0FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7D5292E7261000EC0FB /* Assets.xcassets */,
+				DACAA7DA292E7261000EC0FB /* Info.plist */,
+				DACAA7D7292E7261000EC0FB /* LaunchScreen.storyboard */,
+				DACAA7D2292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACAA7CE292E7260000EC0FB /* ViewController.swift in Sources */,
 				DACAA7CA292E7260000EC0FB /* AppDelegate.swift in Sources */,
 				DACAA7D4292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld in Sources */,
 				DACAA7CC292E7260000EC0FB /* SceneDelegate.swift in Sources */,
@@ -281,7 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4XKQ66453D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FavoriteMoviesList/Info.plist;
+				INFOPLIST_FILE = FavoriteMoviesList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -309,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4XKQ66453D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FavoriteMoviesList/Info.plist;
+				INFOPLIST_FILE = FavoriteMoviesList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
