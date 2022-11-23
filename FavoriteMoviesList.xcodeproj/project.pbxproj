@@ -21,6 +21,8 @@
 		DACAA7F3292E765A000EC0FB /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7EA292E765A000EC0FB /* Manrope-ExtraLight.ttf */; };
 		DACAA7F4292E765A000EC0FB /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7EB292E765A000EC0FB /* Manrope-Light.ttf */; };
 		DACAA7F5292E765A000EC0FB /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7EC292E765A000EC0FB /* Manrope-Bold.ttf */; };
+		DACAA7F9292E7684000EC0FB /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7F7292E7684000EC0FB /* UIFont+Extension.swift */; };
+		DACAA7FA292E7684000EC0FB /* Identifire+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7F8292E7684000EC0FB /* Identifire+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		DACAA7EA292E765A000EC0FB /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
 		DACAA7EB292E765A000EC0FB /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Light.ttf"; sourceTree = "<group>"; };
 		DACAA7EC292E765A000EC0FB /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		DACAA7F7292E7684000EC0FB /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		DACAA7F8292E7684000EC0FB /* Identifire+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Identifire+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		DACAA7C8292E7260000EC0FB /* FavoriteMoviesList */ = {
 			isa = PBXGroup;
 			children = (
+				DACAA7F6292E7684000EC0FB /* Extensions */,
 				DACAA7E2292E765A000EC0FB /* Fonts */,
 				DACAA7E1292E74E2000EC0FB /* Resources */,
 				DACAA7E0292E74CD000EC0FB /* Application */,
@@ -121,6 +126,15 @@
 				DACAA7EC292E765A000EC0FB /* Manrope-Bold.ttf */,
 			);
 			path = Manrope;
+			sourceTree = "<group>";
+		};
+		DACAA7F6292E7684000EC0FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7F7292E7684000EC0FB /* UIFont+Extension.swift */,
+				DACAA7F8292E7684000EC0FB /* Identifire+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACAA7CA292E7260000EC0FB /* AppDelegate.swift in Sources */,
+				DACAA7FA292E7684000EC0FB /* Identifire+Extension.swift in Sources */,
 				DACAA7D4292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld in Sources */,
+				DACAA7F9292E7684000EC0FB /* UIFont+Extension.swift in Sources */,
 				DACAA7CC292E7260000EC0FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
