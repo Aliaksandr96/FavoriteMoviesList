@@ -69,7 +69,7 @@ final class FilmsTableCustomCell: UITableViewCell {
         infoView.layer.shadowOpacity = 1
         infoView.layer.shadowRadius = 10
     }
-    func configureCell(image: UIImage?, name: String, rating: String) {
+    func configureCell(image: UIImage, name: String, rating: String) {
         filmImage.image = image
         filmNameLabel.text = name
         ratingLabel.text = rating

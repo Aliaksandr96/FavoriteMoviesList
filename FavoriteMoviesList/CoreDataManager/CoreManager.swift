@@ -18,7 +18,7 @@ final class CoreDataManager: CoreDataManagerProtocol {
             film.setValue(model.ratings, forKey: "ratings")
             film.setValue(model.discription, forKey: "discription")
             film.setValue(model.releaseDate, forKey: "releaseDate")
-            film.setValue(model.imageFilm, forKey: "imageFilm")
+            film.setValue(model.imageFilm.pngData(), forKey: "imageFilm")
             film.setValue(model.link, forKey: "link")
             do {
                 try managedContext.save()
@@ -46,7 +46,8 @@ final class CoreDataManager: CoreDataManagerProtocol {
                 let discription = someFilm.value(forKey: "discription") as? String ?? ""
                 let image = someFilm.value(forKey: "imageFilm") as? Data ?? Data()
                 let link = someFilm.value(forKey: "link") as? String ?? ""
-                let currentFilm = FilmModel(releaseDate: releaseDate, imageFilm: image, name: name, ratings: ratings,link: link ,discription: discription)
+                
+                let currentFilm = FilmModel(releaseDate: releaseDate, imageFilm: UIImage(data: image)!, name: name, ratings: ratings,link: link ,discription: discription)
                 filmsArray.append(currentFilm)
             }
             return filmsArray

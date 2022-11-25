@@ -22,7 +22,7 @@ final class DetailPresenter: DetailPresenterProtocol {
     }
 
     func getModelFromMainView() {
-        view.updateLabels(filmImage: UIImage(data: filmModel.imageFilm)!,
+        view.updateLabels(filmImage: filmModel.imageFilm,
                                              nameFilm: filmModel.name,
                                              rating: filmModel.ratings,
                                              releaseDate: filmModel.releaseDate,

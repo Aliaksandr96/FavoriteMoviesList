@@ -72,7 +72,7 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: .identifire, for: indexPath) as? FilmsTableCustomCell else { return UITableViewCell() }
         cell.backgroundColor = .clear
-        cell.configureCell(image: UIImage(data: presenter.filmGetting[indexPath.row].imageFilm),
+        cell.configureCell(image: presenter.filmGetting[indexPath.row].imageFilm,
                            name: presenter.filmGetting[indexPath.row].name,
                            rating: presenter.filmGetting[indexPath.row].ratings
         )

@@ -39,7 +39,7 @@ final class NewFilmPresenter: NewFilmPresenterProtocol {
         descriptionText != ""
         {
             let film = FilmModel(releaseDate: releaseDate,
-                                 imageFilm: (imageFromLibrary.pngData())!,
+                                 imageFilm: imageFromLibrary,
                                  name: name, ratings: rating,
                                  link: link, discription: descriptionText)
             coreManager.saveFilmModelToCoreData(film) } else {
