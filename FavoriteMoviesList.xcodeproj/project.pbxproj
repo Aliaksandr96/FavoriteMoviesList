@@ -9,21 +9,90 @@
 /* Begin PBXBuildFile section */
 		DACAA7CA292E7260000EC0FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7C9292E7260000EC0FB /* AppDelegate.swift */; };
 		DACAA7CC292E7260000EC0FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7CB292E7260000EC0FB /* SceneDelegate.swift */; };
-		DACAA7CE292E7260000EC0FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7CD292E7260000EC0FB /* ViewController.swift */; };
 		DACAA7D4292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7D2292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld */; };
 		DACAA7D6292E7261000EC0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7D5292E7261000EC0FB /* Assets.xcassets */; };
 		DACAA7D9292E7261000EC0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7D7292E7261000EC0FB /* LaunchScreen.storyboard */; };
+		DACAA7ED292E765A000EC0FB /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7E4292E765A000EC0FB /* Manrope-Medium.ttf */; };
+		DACAA7EE292E765A000EC0FB /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7E5292E765A000EC0FB /* Manrope-SemiBold.ttf */; };
+		DACAA7EF292E765A000EC0FB /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7E6292E765A000EC0FB /* Manrope-ExtraBold.ttf */; };
+		DACAA7F0292E765A000EC0FB /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7E7292E765A000EC0FB /* OFL.txt */; };
+		DACAA7F1292E765A000EC0FB /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7E8292E765A000EC0FB /* Manrope-Regular.ttf */; };
+		DACAA7F2292E765A000EC0FB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7E9292E765A000EC0FB /* README.txt */; };
+		DACAA7F3292E765A000EC0FB /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7EA292E765A000EC0FB /* Manrope-ExtraLight.ttf */; };
+		DACAA7F4292E765A000EC0FB /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7EB292E765A000EC0FB /* Manrope-Light.ttf */; };
+		DACAA7F5292E765A000EC0FB /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7EC292E765A000EC0FB /* Manrope-Bold.ttf */; };
+		DACAA7F9292E7684000EC0FB /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7F7292E7684000EC0FB /* UIFont+Extension.swift */; };
+		DACAA7FA292E7684000EC0FB /* Identifire+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7F8292E7684000EC0FB /* Identifire+Extension.swift */; };
+		DACAA81B292E76AF000EC0FB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7FD292E76AF000EC0FB /* DetailViewController.swift */; };
+		DACAA81C292E76AF000EC0FB /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7FE292E76AF000EC0FB /* DetailPresenter.swift */; };
+		DACAA81D292E76AF000EC0FB /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA7FF292E76AF000EC0FB /* DetailRouter.swift */; };
+		DACAA81E292E76AF000EC0FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA801292E76AF000EC0FB /* MainViewController.swift */; };
+		DACAA81F292E76AF000EC0FB /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA802292E76AF000EC0FB /* MainPresenter.swift */; };
+		DACAA820292E76AF000EC0FB /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA803292E76AF000EC0FB /* MainRouter.swift */; };
+		DACAA821292E76AF000EC0FB /* MovieListCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA805292E76AF000EC0FB /* MovieListCustomCell.swift */; };
+		DACAA822292E76AF000EC0FB /* RatingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA809292E76AF000EC0FB /* RatingPresenter.swift */; };
+		DACAA823292E76AF000EC0FB /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA80A292E76AF000EC0FB /* RatingViewController.swift */; };
+		DACAA824292E76AF000EC0FB /* RatingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA80B292E76AF000EC0FB /* RatingRouter.swift */; };
+		DACAA825292E76AF000EC0FB /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA80D292E76AF000EC0FB /* NameViewController.swift */; };
+		DACAA826292E76AF000EC0FB /* NamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA80E292E76AF000EC0FB /* NamePresenter.swift */; };
+		DACAA827292E76AF000EC0FB /* NameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA80F292E76AF000EC0FB /* NameRouter.swift */; };
+		DACAA828292E76AF000EC0FB /* UrlLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA811292E76AF000EC0FB /* UrlLinkViewController.swift */; };
+		DACAA829292E76AF000EC0FB /* UrlLinkPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA812292E76AF000EC0FB /* UrlLinkPresenter.swift */; };
+		DACAA82A292E76AF000EC0FB /* UrlLinkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA813292E76AF000EC0FB /* UrlLinkRouter.swift */; };
+		DACAA82B292E76AF000EC0FB /* ReleaseDateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA815292E76AF000EC0FB /* ReleaseDateRouter.swift */; };
+		DACAA82C292E76AF000EC0FB /* ReleaseDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA816292E76AF000EC0FB /* ReleaseDateViewController.swift */; };
+		DACAA82D292E76AF000EC0FB /* ReleaseDatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA817292E76AF000EC0FB /* ReleaseDatePresenter.swift */; };
+		DACAA82E292E76AF000EC0FB /* NewFilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA818292E76AF000EC0FB /* NewFilmViewController.swift */; };
+		DACAA82F292E76AF000EC0FB /* NewFilmRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA819292E76AF000EC0FB /* NewFilmRouter.swift */; };
+		DACAA830292E76AF000EC0FB /* NewFilmPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA81A292E76AF000EC0FB /* NewFilmPresenter.swift */; };
+		DACAA833292E76DF000EC0FB /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA832292E76DF000EC0FB /* FilmModel.swift */; };
+		DACAA836292E76FB000EC0FB /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAA835292E76FB000EC0FB /* CoreManager.swift */; };
+		DACAA839292E7734000EC0FB /* EasyAutolayout in Frameworks */ = {isa = PBXBuildFile; productRef = DACAA838292E7734000EC0FB /* EasyAutolayout */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DACAA7C6292E7260000EC0FB /* FavoriteMoviesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteMoviesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACAA7C9292E7260000EC0FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACAA7CB292E7260000EC0FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DACAA7CD292E7260000EC0FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DACAA7D3292E7260000EC0FB /* FavoriteMoviesList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoriteMoviesList.xcdatamodel; sourceTree = "<group>"; };
 		DACAA7D5292E7261000EC0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACAA7D8292E7261000EC0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACAA7DA292E7261000EC0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACAA7E4292E765A000EC0FB /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		DACAA7E5292E765A000EC0FB /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		DACAA7E6292E765A000EC0FB /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DACAA7E7292E765A000EC0FB /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		DACAA7E8292E765A000EC0FB /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		DACAA7E9292E765A000EC0FB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		DACAA7EA292E765A000EC0FB /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		DACAA7EB292E765A000EC0FB /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Light.ttf"; sourceTree = "<group>"; };
+		DACAA7EC292E765A000EC0FB /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		DACAA7F7292E7684000EC0FB /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		DACAA7F8292E7684000EC0FB /* Identifire+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Identifire+Extension.swift"; sourceTree = "<group>"; };
+		DACAA7FD292E76AF000EC0FB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DACAA7FE292E76AF000EC0FB /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		DACAA7FF292E76AF000EC0FB /* DetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		DACAA801292E76AF000EC0FB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DACAA802292E76AF000EC0FB /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		DACAA803292E76AF000EC0FB /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		DACAA805292E76AF000EC0FB /* MovieListCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListCustomCell.swift; sourceTree = "<group>"; };
+		DACAA809292E76AF000EC0FB /* RatingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingPresenter.swift; sourceTree = "<group>"; };
+		DACAA80A292E76AF000EC0FB /* RatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		DACAA80B292E76AF000EC0FB /* RatingRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingRouter.swift; sourceTree = "<group>"; };
+		DACAA80D292E76AF000EC0FB /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		DACAA80E292E76AF000EC0FB /* NamePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamePresenter.swift; sourceTree = "<group>"; };
+		DACAA80F292E76AF000EC0FB /* NameRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameRouter.swift; sourceTree = "<group>"; };
+		DACAA811292E76AF000EC0FB /* UrlLinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlLinkViewController.swift; sourceTree = "<group>"; };
+		DACAA812292E76AF000EC0FB /* UrlLinkPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlLinkPresenter.swift; sourceTree = "<group>"; };
+		DACAA813292E76AF000EC0FB /* UrlLinkRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlLinkRouter.swift; sourceTree = "<group>"; };
+		DACAA815292E76AF000EC0FB /* ReleaseDateRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseDateRouter.swift; sourceTree = "<group>"; };
+		DACAA816292E76AF000EC0FB /* ReleaseDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseDateViewController.swift; sourceTree = "<group>"; };
+		DACAA817292E76AF000EC0FB /* ReleaseDatePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseDatePresenter.swift; sourceTree = "<group>"; };
+		DACAA818292E76AF000EC0FB /* NewFilmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFilmViewController.swift; sourceTree = "<group>"; };
+		DACAA819292E76AF000EC0FB /* NewFilmRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFilmRouter.swift; sourceTree = "<group>"; };
+		DACAA81A292E76AF000EC0FB /* NewFilmPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFilmPresenter.swift; sourceTree = "<group>"; };
+		DACAA832292E76DF000EC0FB /* FilmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		DACAA835292E76FB000EC0FB /* CoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACAA839292E7734000EC0FB /* EasyAutolayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +126,185 @@
 		DACAA7C8292E7260000EC0FB /* FavoriteMoviesList */ = {
 			isa = PBXGroup;
 			children = (
-				DACAA7C9292E7260000EC0FB /* AppDelegate.swift */,
-				DACAA7CB292E7260000EC0FB /* SceneDelegate.swift */,
-				DACAA7CD292E7260000EC0FB /* ViewController.swift */,
-				DACAA7D5292E7261000EC0FB /* Assets.xcassets */,
-				DACAA7D7292E7261000EC0FB /* LaunchScreen.storyboard */,
-				DACAA7DA292E7261000EC0FB /* Info.plist */,
-				DACAA7D2292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld */,
+				DACAA831292E76DF000EC0FB /* Models */,
+				DACAA7FB292E76AF000EC0FB /* Views */,
+				DACAA834292E76FB000EC0FB /* CoreDataManager */,
+				DACAA7F6292E7684000EC0FB /* Extensions */,
+				DACAA7E2292E765A000EC0FB /* Fonts */,
+				DACAA7E1292E74E2000EC0FB /* Resources */,
+				DACAA7E0292E74CD000EC0FB /* Application */,
 			);
 			path = FavoriteMoviesList;
+			sourceTree = "<group>";
+		};
+		DACAA7E0292E74CD000EC0FB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7CB292E7260000EC0FB /* SceneDelegate.swift */,
+				DACAA7C9292E7260000EC0FB /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DACAA7E1292E74E2000EC0FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7D5292E7261000EC0FB /* Assets.xcassets */,
+				DACAA7DA292E7261000EC0FB /* Info.plist */,
+				DACAA7D7292E7261000EC0FB /* LaunchScreen.storyboard */,
+				DACAA7D2292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DACAA7E2292E765A000EC0FB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7E3292E765A000EC0FB /* Manrope */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DACAA7E3292E765A000EC0FB /* Manrope */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7E4292E765A000EC0FB /* Manrope-Medium.ttf */,
+				DACAA7E5292E765A000EC0FB /* Manrope-SemiBold.ttf */,
+				DACAA7E6292E765A000EC0FB /* Manrope-ExtraBold.ttf */,
+				DACAA7E7292E765A000EC0FB /* OFL.txt */,
+				DACAA7E8292E765A000EC0FB /* Manrope-Regular.ttf */,
+				DACAA7E9292E765A000EC0FB /* README.txt */,
+				DACAA7EA292E765A000EC0FB /* Manrope-ExtraLight.ttf */,
+				DACAA7EB292E765A000EC0FB /* Manrope-Light.ttf */,
+				DACAA7EC292E765A000EC0FB /* Manrope-Bold.ttf */,
+			);
+			path = Manrope;
+			sourceTree = "<group>";
+		};
+		DACAA7F6292E7684000EC0FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7F7292E7684000EC0FB /* UIFont+Extension.swift */,
+				DACAA7F8292E7684000EC0FB /* Identifire+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DACAA7FB292E76AF000EC0FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7FC292E76AF000EC0FB /* DetailView */,
+				DACAA800292E76AF000EC0FB /* MainView */,
+				DACAA806292E76AF000EC0FB /* NewFilmView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DACAA7FC292E76AF000EC0FB /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA7FD292E76AF000EC0FB /* DetailViewController.swift */,
+				DACAA7FE292E76AF000EC0FB /* DetailPresenter.swift */,
+				DACAA7FF292E76AF000EC0FB /* DetailRouter.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		DACAA800292E76AF000EC0FB /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA801292E76AF000EC0FB /* MainViewController.swift */,
+				DACAA802292E76AF000EC0FB /* MainPresenter.swift */,
+				DACAA803292E76AF000EC0FB /* MainRouter.swift */,
+				DACAA804292E76AF000EC0FB /* MovieListCustomCell */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		DACAA804292E76AF000EC0FB /* MovieListCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA805292E76AF000EC0FB /* MovieListCustomCell.swift */,
+			);
+			path = MovieListCustomCell;
+			sourceTree = "<group>";
+		};
+		DACAA806292E76AF000EC0FB /* NewFilmView */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA807292E76AF000EC0FB /* DetailViews */,
+				DACAA818292E76AF000EC0FB /* NewFilmViewController.swift */,
+				DACAA819292E76AF000EC0FB /* NewFilmRouter.swift */,
+				DACAA81A292E76AF000EC0FB /* NewFilmPresenter.swift */,
+			);
+			path = NewFilmView;
+			sourceTree = "<group>";
+		};
+		DACAA807292E76AF000EC0FB /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA808292E76AF000EC0FB /* RatingView */,
+				DACAA80C292E76AF000EC0FB /* NameView */,
+				DACAA810292E76AF000EC0FB /* UrlLinkView */,
+				DACAA814292E76AF000EC0FB /* ReleaseDateView */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		DACAA808292E76AF000EC0FB /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA809292E76AF000EC0FB /* RatingPresenter.swift */,
+				DACAA80A292E76AF000EC0FB /* RatingViewController.swift */,
+				DACAA80B292E76AF000EC0FB /* RatingRouter.swift */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		DACAA80C292E76AF000EC0FB /* NameView */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA80D292E76AF000EC0FB /* NameViewController.swift */,
+				DACAA80E292E76AF000EC0FB /* NamePresenter.swift */,
+				DACAA80F292E76AF000EC0FB /* NameRouter.swift */,
+			);
+			path = NameView;
+			sourceTree = "<group>";
+		};
+		DACAA810292E76AF000EC0FB /* UrlLinkView */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA811292E76AF000EC0FB /* UrlLinkViewController.swift */,
+				DACAA812292E76AF000EC0FB /* UrlLinkPresenter.swift */,
+				DACAA813292E76AF000EC0FB /* UrlLinkRouter.swift */,
+			);
+			path = UrlLinkView;
+			sourceTree = "<group>";
+		};
+		DACAA814292E76AF000EC0FB /* ReleaseDateView */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA815292E76AF000EC0FB /* ReleaseDateRouter.swift */,
+				DACAA816292E76AF000EC0FB /* ReleaseDateViewController.swift */,
+				DACAA817292E76AF000EC0FB /* ReleaseDatePresenter.swift */,
+			);
+			path = ReleaseDateView;
+			sourceTree = "<group>";
+		};
+		DACAA831292E76DF000EC0FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA832292E76DF000EC0FB /* FilmModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DACAA834292E76FB000EC0FB /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				DACAA835292E76FB000EC0FB /* CoreManager.swift */,
+			);
+			path = CoreDataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +323,9 @@
 			dependencies = (
 			);
 			name = FavoriteMoviesList;
+			packageProductDependencies = (
+				DACAA838292E7734000EC0FB /* EasyAutolayout */,
+			);
 			productName = FavoriteMoviesList;
 			productReference = DACAA7C6292E7260000EC0FB /* FavoriteMoviesList.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +354,9 @@
 				Base,
 			);
 			mainGroup = DACAA7BD292E7260000EC0FB;
+			packageReferences = (
+				DACAA837292E7734000EC0FB /* XCRemoteSwiftPackageReference "EasyAutoLayout" */,
+			);
 			productRefGroup = DACAA7C7292E7260000EC0FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +371,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACAA7F0292E765A000EC0FB /* OFL.txt in Resources */,
+				DACAA7EF292E765A000EC0FB /* Manrope-ExtraBold.ttf in Resources */,
+				DACAA7ED292E765A000EC0FB /* Manrope-Medium.ttf in Resources */,
 				DACAA7D9292E7261000EC0FB /* LaunchScreen.storyboard in Resources */,
+				DACAA7F4292E765A000EC0FB /* Manrope-Light.ttf in Resources */,
+				DACAA7EE292E765A000EC0FB /* Manrope-SemiBold.ttf in Resources */,
 				DACAA7D6292E7261000EC0FB /* Assets.xcassets in Resources */,
+				DACAA7F2292E765A000EC0FB /* README.txt in Resources */,
+				DACAA7F3292E765A000EC0FB /* Manrope-ExtraLight.ttf in Resources */,
+				DACAA7F1292E765A000EC0FB /* Manrope-Regular.ttf in Resources */,
+				DACAA7F5292E765A000EC0FB /* Manrope-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,10 +392,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACAA7CE292E7260000EC0FB /* ViewController.swift in Sources */,
 				DACAA7CA292E7260000EC0FB /* AppDelegate.swift in Sources */,
+				DACAA81D292E76AF000EC0FB /* DetailRouter.swift in Sources */,
+				DACAA7FA292E7684000EC0FB /* Identifire+Extension.swift in Sources */,
+				DACAA825292E76AF000EC0FB /* NameViewController.swift in Sources */,
+				DACAA82D292E76AF000EC0FB /* ReleaseDatePresenter.swift in Sources */,
+				DACAA82B292E76AF000EC0FB /* ReleaseDateRouter.swift in Sources */,
+				DACAA824292E76AF000EC0FB /* RatingRouter.swift in Sources */,
+				DACAA826292E76AF000EC0FB /* NamePresenter.swift in Sources */,
+				DACAA829292E76AF000EC0FB /* UrlLinkPresenter.swift in Sources */,
+				DACAA82C292E76AF000EC0FB /* ReleaseDateViewController.swift in Sources */,
+				DACAA821292E76AF000EC0FB /* MovieListCustomCell.swift in Sources */,
+				DACAA833292E76DF000EC0FB /* FilmModel.swift in Sources */,
+				DACAA82F292E76AF000EC0FB /* NewFilmRouter.swift in Sources */,
 				DACAA7D4292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld in Sources */,
+				DACAA828292E76AF000EC0FB /* UrlLinkViewController.swift in Sources */,
+				DACAA81B292E76AF000EC0FB /* DetailViewController.swift in Sources */,
+				DACAA827292E76AF000EC0FB /* NameRouter.swift in Sources */,
+				DACAA82A292E76AF000EC0FB /* UrlLinkRouter.swift in Sources */,
+				DACAA822292E76AF000EC0FB /* RatingPresenter.swift in Sources */,
+				DACAA81F292E76AF000EC0FB /* MainPresenter.swift in Sources */,
+				DACAA7F9292E7684000EC0FB /* UIFont+Extension.swift in Sources */,
+				DACAA836292E76FB000EC0FB /* CoreManager.swift in Sources */,
+				DACAA830292E76AF000EC0FB /* NewFilmPresenter.swift in Sources */,
+				DACAA81E292E76AF000EC0FB /* MainViewController.swift in Sources */,
+				DACAA81C292E76AF000EC0FB /* DetailPresenter.swift in Sources */,
+				DACAA82E292E76AF000EC0FB /* NewFilmViewController.swift in Sources */,
+				DACAA820292E76AF000EC0FB /* MainRouter.swift in Sources */,
 				DACAA7CC292E7260000EC0FB /* SceneDelegate.swift in Sources */,
+				DACAA823292E76AF000EC0FB /* RatingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +561,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4XKQ66453D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FavoriteMoviesList/Info.plist;
+				INFOPLIST_FILE = FavoriteMoviesList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -309,7 +589,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4XKQ66453D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FavoriteMoviesList/Info.plist;
+				INFOPLIST_FILE = FavoriteMoviesList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -350,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DACAA837292E7734000EC0FB /* XCRemoteSwiftPackageReference "EasyAutoLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ligr/EasyAutoLayout";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DACAA838292E7734000EC0FB /* EasyAutolayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DACAA837292E7734000EC0FB /* XCRemoteSwiftPackageReference "EasyAutoLayout" */;
+			productName = EasyAutolayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DACAA7D2292E7260000EC0FB /* FavoriteMoviesList.xcdatamodeld */ = {
